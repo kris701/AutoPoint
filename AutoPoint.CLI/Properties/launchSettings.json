@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CargoBI.AutoPoint.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "-t test4.json -p CSharpProducer JavaScriptProducer"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Includes": [
+    "test4.json"
+  ],
+  "Branch": {
+    "name": "simple4",
+    "Nodes": [
+    ]
+  }
+}

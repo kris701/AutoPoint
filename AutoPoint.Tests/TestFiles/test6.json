@@ -1,0 +1,19 @@
+{
+  "Includes": [
+    "test4.json"
+  ],
+  "Branch": {
+    "name": "simple4",
+    "Nodes": [
+      {
+        "name": "Subnode",
+        "Nodes": [
+          {
+            "Name": "test2",
+            "Route": "abc"
+          }
+        ]
+      }
+    ]
+  }
+}

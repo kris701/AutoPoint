@@ -1,0 +1,4 @@
+﻿// This document is auto generated!
+var simple2 = {}
+simple2.Name = "simple2"
+simple2.test = "simple2/abc"

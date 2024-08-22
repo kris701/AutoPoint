@@ -1,0 +1,16 @@
+{
+  "Includes": [],
+  "Branch": {
+    "name": "simple3",
+    "Nodes": [
+      {
+        "name": "test",
+        "route": "abc"
+      },
+      {
+        "name": "test2",
+        "route": "123"
+      }
+    ]
+  }
+}

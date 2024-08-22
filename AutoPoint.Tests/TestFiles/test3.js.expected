@@ -1,0 +1,5 @@
+﻿// This document is auto generated!
+var simple3 = {}
+simple3.Name = "simple3"
+simple3.test = "simple3/abc"
+simple3.test2 = "simple3/123"

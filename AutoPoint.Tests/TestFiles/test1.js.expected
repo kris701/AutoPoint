@@ -1,0 +1,3 @@
+﻿// This document is auto generated!
+var simple = {}
+simple.Name = "simple"

@@ -1,0 +1,10 @@
+﻿// This document is auto generated!
+public static class simple4 {
+	public const string Name = "simple4";
+	public const string test = "simple4/abc";
+	public const string test2 = "simple4/123";
+	public static class Subnode {
+		public const string Name = "simple4/subnode";
+		public const string test = "simple4/subnode";
+	}
+}

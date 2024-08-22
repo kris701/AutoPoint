@@ -1,0 +1,6 @@
+﻿// This document is auto generated!
+public static class simple3 {
+	public const string Name = "simple3";
+	public const string test = "simple3/abc";
+	public const string test2 = "simple3/123";
+}

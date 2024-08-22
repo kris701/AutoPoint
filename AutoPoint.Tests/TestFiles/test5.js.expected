@@ -1,0 +1,8 @@
+﻿// This document is auto generated!
+var simple4 = {}
+simple4.Name = "simple4"
+simple4.test = "simple4/abc"
+simple4.test2 = "simple4/123"
+simple4.Subnode = {}
+simple4.Subnode.Name = "simple4/subnode"
+simple4.Subnode.test = "simple4/subnode"

@@ -1,0 +1,4 @@
+﻿// This document is auto generated!
+public static class simple {
+	public const string Name = "simple";
+}
