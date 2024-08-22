@@ -6,7 +6,7 @@ namespace AutoPoint.Producers
 	{
 		public abstract string Name { get; }
 		public abstract string Extension { get; }
-		public abstract string Generate(AutoPointModel definition);
+		public abstract string Generate(AutoPointDefinition definition);
 
 		internal string GenerateIndent(int indent) => new string('\t', indent);
 		internal string CombineNamespaceAndRoute(string n, string r, char spacer = '/')

@@ -6,6 +6,6 @@ namespace AutoPoint.Producers
 	{
 		public string Name { get; }
 		public string Extension { get; }
-		public string Generate(AutoPointModel definition);
+		public string Generate(AutoPointDefinition definition);
 	}
 }

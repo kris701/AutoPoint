@@ -14,13 +14,13 @@ namespace AutoPoint.Serializers
 			}
 		};
 
-		public static AutoPointModel Deserialise(FileInfo file)
+		public static AutoPointDefinition Deserialise(FileInfo file)
 		{
 			if (file.Directory == null)
 				throw new Exception("Invalid input file!");
 
 			var text = File.ReadAllText(file.FullName);
-			var deserialized = JsonSerializer.Deserialize<AutoPointModel>(text, _options);
+			var deserialized = JsonSerializer.Deserialize<AutoPointDefinition>(text, _options);
 			if (deserialized == null)
 				throw new Exception("Error during deserialisation of autopoint definition file!");
 

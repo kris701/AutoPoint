@@ -7,7 +7,7 @@ namespace AutoPoint.Producers
 	{
 		public override string Name { get; } = "CSharpProducer";
 		public override string Extension { get; } = "cs";
-		public override string Generate(AutoPointModel definition)
+		public override string Generate(AutoPointDefinition definition)
 		{
 			var sb = new StringBuilder();
 

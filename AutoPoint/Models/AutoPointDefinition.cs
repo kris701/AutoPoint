@@ -1,6 +1,6 @@
 ﻿namespace AutoPoint.Models
 {
-	public class AutoPointModel
+	public class AutoPointDefinition
 	{
 		public List<string> Includes { get; set; }
 		public BranchDefinition Branch { get; set; }

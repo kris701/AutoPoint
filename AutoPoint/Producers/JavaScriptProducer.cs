@@ -7,7 +7,7 @@ namespace AutoPoint.Producers
 	{
 		public override string Name { get; } = "JavaScriptProducer";
 		public override string Extension { get; } = "js";
-		public override string Generate(AutoPointModel definition)
+		public override string Generate(AutoPointDefinition definition)
 		{
 			var sb = new StringBuilder();
 

@@ -11,18 +11,18 @@ namespace AutoPoint
 		public event ProgressEventHandler? OnProgressed;
 		public event CompletedEventHandler? OnCompleted;
 
-		public AutoPointModel Model { get; set; }
+		public AutoPointDefinition Model { get; set; }
 		public List<IProducer> Producers { get; set; }
 		public string OutPath { get; set; }
 
-		public AutoPointService(AutoPointModel model, List<IProducer> producers, string outPath)
+		public AutoPointService(AutoPointDefinition model, List<IProducer> producers, string outPath)
 		{
 			Model = model;
 			Producers = producers;
 			OutPath = outPath;
 		}
 
-		public AutoPointService(AutoPointModel model, List<string> producerNames, string outPath)
+		public AutoPointService(AutoPointDefinition model, List<string> producerNames, string outPath)
 		{
 			Model = model;
 			Producers = new List<IProducer>();
@@ -33,7 +33,7 @@ namespace AutoPoint
 
 		public AutoPointService(FileInfo modelFile, List<string> producerNames, string outPath)
 		{
-			var deserialized = JsonSerializer.Deserialize<AutoPointModel>(File.ReadAllText(modelFile.FullName));
+			var deserialized = JsonSerializer.Deserialize<AutoPointDefinition>(File.ReadAllText(modelFile.FullName));
 			if (deserialized == null)
 				throw new ArgumentNullException("Could not deserialize model!");
 			Model = deserialized;
