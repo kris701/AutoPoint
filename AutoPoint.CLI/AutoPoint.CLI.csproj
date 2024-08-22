@@ -34,7 +34,13 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
-
+	<PropertyGroup>
+		<PackageIcon>logo.png</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="logo.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+	
 	<ItemGroup>
 	  <PackageReference Include="CommandLineParser" Version="2.9.1" />
 	</ItemGroup>
