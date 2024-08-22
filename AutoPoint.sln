@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92B1C74F-ED1A-45D1-8558-5FC2EA1E43A9}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.github\workflows\dotnet-desktop.yml = .github\workflows\dotnet-desktop.yml
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 	EndProjectSection
