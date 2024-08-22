@@ -1,8 +1,8 @@
-﻿using CargoBI.AutoPoint.Models;
+﻿using AutoPoint.Models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace CargoBI.AutoPoint.Serializers
+namespace AutoPoint.Serializers
 {
 	internal class AutopointConverter : JsonConverter<IDefinitionItem>
 	{

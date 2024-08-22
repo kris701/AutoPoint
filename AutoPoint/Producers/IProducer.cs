@@ -1,6 +1,6 @@
-﻿using CargoBI.AutoPoint.Models;
+﻿using AutoPoint.Models;
 
-namespace CargoBI.AutoPoint.Producers
+namespace AutoPoint.Producers
 {
 	public interface IProducer
 	{

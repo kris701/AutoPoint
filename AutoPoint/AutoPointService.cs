@@ -1,13 +1,8 @@
-﻿using CargoBI.AutoPoint.Models;
-using CargoBI.AutoPoint.Producers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using AutoPoint.Models;
+using AutoPoint.Producers;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace CargoBI.AutoPoint
+namespace AutoPoint
 {
 	public delegate void ProgressEventHandler(object sender, int current, int max, string category, string message);
 	public delegate void CompletedEventHandler(object sender);
@@ -50,7 +45,7 @@ namespace CargoBI.AutoPoint
 
 		public void Execute()
 		{
-			foreach(var producer in Producers)
+			foreach (var producer in Producers)
 			{
 				OnProgressed?.Invoke(this, 1, Producers.Count, "Generation", $"Running producer {producer.Name}");
 				var text = producer.Generate(Model);

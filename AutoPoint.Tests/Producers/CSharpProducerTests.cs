@@ -1,7 +1,7 @@
-﻿using CargoBI.AutoPoint.Producers;
-using CargoBI.AutoPoint.Serializers;
+﻿using AutoPoint.Producers;
+using AutoPoint.Serializers;
 
-namespace CargoBI.AutoPoint.Tests.Producers
+namespace AutoPoint.Tests.Producers
 {
 	[TestClass]
 	public class CSharpProducerTests

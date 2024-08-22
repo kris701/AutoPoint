@@ -1,4 +1,4 @@
-﻿namespace CargoBI.AutoPoint.Producers
+﻿namespace AutoPoint.Producers
 {
 	public static class ProducerBuilder
 	{

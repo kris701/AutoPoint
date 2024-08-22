@@ -1,7 +1,7 @@
-﻿using CargoBI.AutoPoint.Models;
-using CargoBI.AutoPoint.Serializers;
+﻿using AutoPoint.Models;
+using AutoPoint.Serializers;
 
-namespace CargoBI.AutoPoint.Tests.Serializers
+namespace AutoPoint.Tests.Serializers
 {
 	[TestClass]
 	public class AutoPointSerializerTests

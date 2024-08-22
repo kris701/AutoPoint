@@ -1,7 +1,7 @@
-﻿using CargoBI.AutoPoint.Models;
+﻿using AutoPoint.Models;
 using System.Text;
 
-namespace CargoBI.AutoPoint.Producers
+namespace AutoPoint.Producers
 {
 	public class CSharpProducer : BaseProducer
 	{

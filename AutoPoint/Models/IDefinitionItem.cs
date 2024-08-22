@@ -1,4 +1,4 @@
-﻿namespace CargoBI.AutoPoint.Models
+﻿namespace AutoPoint.Models
 {
 	public interface IDefinitionItem
 	{

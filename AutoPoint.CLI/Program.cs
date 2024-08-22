@@ -1,9 +1,9 @@
-﻿using CargoBI.AutoPoint.Producers;
-using CargoBI.AutoPoint.Serializers;
+﻿using AutoPoint.Producers;
+using AutoPoint.Serializers;
 using CommandLine;
 using CommandLine.Text;
 
-namespace CargoBI.AutoPoint.CLI
+namespace AutoPoint.CLI
 {
 	internal class Program
 	{

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,7 +11,7 @@
 	  <Title>AutoPoint</Title>
 	  <Authors>Kristian Skov Johansen</Authors>
 	  <Description>A small system to centralise what API endpoints are what across multiple languages</Description>
-	  <RepositoryUrl>https://github.com/Cargo-BI/CargoBI.AutoPoint</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/kris701/AutoPoint</RepositoryUrl>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>

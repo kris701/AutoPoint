@@ -1,7 +1,7 @@
-﻿using CargoBI.AutoPoint.Models;
+﻿using AutoPoint.Models;
 using System.Text.Json;
 
-namespace CargoBI.AutoPoint.Serializers
+namespace AutoPoint.Serializers
 {
 	public static class AutoPointSerializer
 	{

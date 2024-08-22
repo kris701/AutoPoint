@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace CargoBI.AutoPoint.CLI
+namespace AutoPoint.CLI
 {
 	public class Options
 	{
