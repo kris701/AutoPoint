@@ -1,8 +1,8 @@
-﻿using AutoPoint.Models;
-using AutoPoint.Producers;
+﻿using AutoPoint.Core.Models;
+using AutoPoint.Core.Producers;
 using System.Text.Json;
 
-namespace AutoPoint
+namespace AutoPoint.Core
 {
 	public delegate void ProgressEventHandler(object sender, int current, int max, string category, string message);
 	public delegate void CompletedEventHandler(object sender);

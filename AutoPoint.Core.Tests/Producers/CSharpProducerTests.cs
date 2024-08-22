@@ -1,7 +1,7 @@
-﻿using AutoPoint.Producers;
-using AutoPoint.Serializers;
+﻿using AutoPoint.Core.Producers;
+using AutoPoint.Core.Serializers;
 
-namespace AutoPoint.Tests.Producers
+namespace AutoPoint.Core.Tests.Producers
 {
 	[TestClass]
 	public class CSharpProducerTests

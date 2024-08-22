@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoint", "AutoPoint\AutoPoint.csproj", "{B6439F65-D26F-4641-AD9F-F417CEFD02BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoint.Core", "AutoPoint.Core\AutoPoint.Core.csproj", "{B6439F65-D26F-4641-AD9F-F417CEFD02BA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoint.CLI", "AutoPoint.CLI\AutoPoint.CLI.csproj", "{519E1819-0792-4568-9775-A1F32E90B896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoint", "AutoPoint\AutoPoint.csproj", "{519E1819-0792-4568-9775-A1F32E90B896}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoint.Tests", "AutoPoint.Tests\AutoPoint.Tests.csproj", "{07CF6F1F-DE86-4605-9117-AACE3C8E160F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoint.Core.Tests", "AutoPoint.Core.Tests\AutoPoint.Core.Tests.csproj", "{07CF6F1F-DE86-4605-9117-AACE3C8E160F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92B1C74F-ED1A-45D1-8558-5FC2EA1E43A9}"
 	ProjectSection(SolutionItems) = preProject

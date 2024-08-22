@@ -1,9 +1,9 @@
-﻿using AutoPoint.Producers;
-using AutoPoint.Serializers;
+﻿using AutoPoint.Core.Producers;
+using AutoPoint.Core.Serializers;
 using CommandLine;
 using CommandLine.Text;
 
-namespace AutoPoint.CLI
+namespace AutoPoint
 {
 	internal class Program
 	{

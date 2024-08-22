@@ -1,8 +1,8 @@
-﻿using AutoPoint.Models;
+﻿using AutoPoint.Core.Models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace AutoPoint.Serializers
+namespace AutoPoint.Core.Serializers
 {
 	internal class AutopointConverter : JsonConverter<IDefinitionItem>
 	{

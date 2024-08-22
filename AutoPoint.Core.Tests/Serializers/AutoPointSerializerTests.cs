@@ -1,7 +1,7 @@
-﻿using AutoPoint.Models;
-using AutoPoint.Serializers;
+﻿using AutoPoint.Core.Models;
+using AutoPoint.Core.Serializers;
 
-namespace AutoPoint.Tests.Serializers
+namespace AutoPoint.Core.Tests.Serializers
 {
 	[TestClass]
 	public class AutoPointSerializerTests

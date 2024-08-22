@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace AutoPoint.CLI
+namespace AutoPoint
 {
 	public class Options
 	{

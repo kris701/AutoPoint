@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoPoint\AutoPoint.csproj" />
+    <ProjectReference Include="..\AutoPoint.Core\AutoPoint.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

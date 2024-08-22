@@ -1,7 +1,7 @@
-﻿using AutoPoint.Models;
+﻿using AutoPoint.Core.Models;
 using System.Text;
 
-namespace AutoPoint.Producers
+namespace AutoPoint.Core.Producers
 {
 	public class JavaScriptProducer : BaseProducer
 	{

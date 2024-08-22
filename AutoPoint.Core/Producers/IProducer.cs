@@ -1,6 +1,6 @@
-﻿using AutoPoint.Models;
+﻿using AutoPoint.Core.Models;
 
-namespace AutoPoint.Producers
+namespace AutoPoint.Core.Producers
 {
 	public interface IProducer
 	{

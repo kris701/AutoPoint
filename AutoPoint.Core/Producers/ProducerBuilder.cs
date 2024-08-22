@@ -1,4 +1,4 @@
-﻿namespace AutoPoint.Producers
+﻿namespace AutoPoint.Core.Producers
 {
 	public static class ProducerBuilder
 	{

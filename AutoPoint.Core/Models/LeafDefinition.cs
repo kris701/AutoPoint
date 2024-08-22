@@ -1,4 +1,4 @@
-﻿namespace AutoPoint.Models
+﻿namespace AutoPoint.Core.Models
 {
 	public class LeafDefinition : IDefinitionItem
 	{

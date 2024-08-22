@@ -1,7 +1,7 @@
-﻿using AutoPoint.Models;
+﻿using AutoPoint.Core.Models;
 using System.Text.Json;
 
-namespace AutoPoint.Serializers
+namespace AutoPoint.Core.Serializers
 {
 	public static class AutoPointSerializer
 	{
