@@ -1,0 +1,11 @@
+﻿// This document is auto generated!
+const simple4 = {
+	Name: "simple4",
+	Subnode: {
+		Name: "Subnode",
+		test2: "simple4/subnode/abc",
+		test: "simple4/subnode",
+	},
+	test: "simple4/abc",
+	test2: "simple4/123",
+}

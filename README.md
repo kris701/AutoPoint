@@ -43,6 +43,7 @@ public static class simple {
 The currently available producers are:
 * `CSharpProducer`, to make C# code
 * `JavaScriptProducer`, to make JS code
+* `TypeScriptProducer`, to make TS code
 
 
 This package is available as a tool on the [NuGet Package Manager](https://www.nuget.org/packages/AutoPoint/), so you can install it by writing `dotnet tool install AutoPoint` in a terminal.

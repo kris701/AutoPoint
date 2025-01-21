@@ -6,6 +6,7 @@
 		{
 			{ "CSharpProducer", () => new CSharpProducer() },
 			{ "JavaScriptProducer", () => new JavaScriptProducer() },
+			{ "TypeScriptProducer", () => new TypeScriptProducer() },
 		};
 
 		public static IProducer GetProducer(string name) => _producers[name]();
