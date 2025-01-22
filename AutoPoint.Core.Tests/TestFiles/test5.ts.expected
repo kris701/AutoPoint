@@ -1,5 +1,5 @@
 ﻿// This document is auto generated!
-const simple4 = {
+export const simple4 = {
 	Name: "simple4",
 	test: "simple4/abc",
 	test2: "simple4/123",

@@ -13,7 +13,7 @@ namespace AutoPoint.Core.Producers
 			var sb = new StringBuilder();
 
 			sb.AppendLine("// This document is auto generated!");
-			sb.AppendLine($"const {definition.Branch.Name} = {{");
+			sb.AppendLine($"export const {definition.Branch.Name} = {{");
 			sb.AppendLine(WriteInnerBranch(definition.Branch, definition.Branch.Name, 1));
 			sb.AppendLine($"}}");
 

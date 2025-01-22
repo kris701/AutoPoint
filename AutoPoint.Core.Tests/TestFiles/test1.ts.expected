@@ -1,4 +1,4 @@
 ﻿// This document is auto generated!
-const simple = {
+export const simple = {
 	Name: "simple",
 }
